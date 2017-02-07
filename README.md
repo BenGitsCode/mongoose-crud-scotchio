@@ -3,7 +3,7 @@
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 TODO: Put more badges here.
 
-> Scotch IO tutorial app using node express, ejs templating, MongoDB and Mongoose. 
+> Scotch IO tutorial app using node express, ejs templating, MongoDB and Mongoose.
 
 TODO: Fill out this long description.
 
@@ -17,7 +17,8 @@ TODO: Fill out this long description.
 
 ## Install
 
-```
+```bash
+npm install
 ```
 
 ## Usage
@@ -30,8 +31,6 @@ TODO: Fill out this long description.
 ## Contribute
 
 PRs accepted.
-
-Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
 ## License
 
