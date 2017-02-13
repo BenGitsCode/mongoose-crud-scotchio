@@ -18,7 +18,7 @@ module.exports = {
     // get a single event
     const event = { name: 'Basketball', slug: 'basketball', description: 'Throwing into a basket.' };
 
-    res.render('pages/events', { event: event });
+    res.render('pages/single', { event: event });
   }
 
 };
