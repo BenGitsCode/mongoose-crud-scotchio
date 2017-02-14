@@ -14,7 +14,8 @@ app.set('view engine', 'ejs');
 app.use(expressLayouts);
 
 //Connect to mlab database
-mongoose.connect('process.env.DB_URI');
+// mongoose.connect('process.env.DB_URI'); (env not working??)
+mongoose.connect('mongodb://bengitscode:deovolente@ds059135.mlab.com:59135/heroku_m8dvgp9b');
 
 // set the routes
 app.use(require('./app/routes'));
