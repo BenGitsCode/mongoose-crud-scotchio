@@ -8,6 +8,7 @@ const mongoose = require('mongoose'),
         type: String,
         unique: true
       },
+      description: String
     });
 
     // middleware ================
